@@ -37,7 +37,7 @@
 					</div>
 				</div>
 				<div class="form-group">
-					<button class="btn btn-outline-primary"
+					<button class="btn btn-outline-info"
 							type="submit">
 						<i class="fa fa-sign-in fa-fw"></i> Sign in
 					</button>
