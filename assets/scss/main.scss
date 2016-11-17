@@ -1,0 +1,105 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url('../UyBMtLsHKBKXelqf4x7VRQ.woff2') format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url('../1YwB1sO8YE1Lyjf12WNiUA.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@import "vars";
+@import "mixins";
+/* Spacing classes in partials */
+@import "margin";
+@import "padding";
+
+body {
+  background: {
+	color: #efefef;
+  }
+  
+  font-family: 'Lato', sans-serif;
+}
+
+main {
+  //min-height: 30rem;
+}
+
+.card.home-test {
+  max-width: 40rem;
+  margin: {
+	top: 2rem;
+	bottom: 1.8rem;
+  }
+  //background-color: white;
+}
+
+a {
+  color: $alt-color;
+}
+
+div.hr {
+  margin: {
+	top: 5px;
+	bottom: 20px;
+  }
+  border: {
+	bottom: {
+	  color: #CCCCCC;
+	  style: solid;
+	  width: 1px;
+	}
+  }
+}
+
+.center-block {
+  display: block;
+  margin: {
+	left: auto;
+	right: auto;
+  }
+}
+
+.navbar {
+  background: {
+	color: #ffffff;
+  }
+  
+  .navbar-brand {
+	font-weight: bold;
+  }
+  
+}
+
+.text-white {
+  color: white;
+}
+
+footer {
+  margin: {
+	top: 10px;
+  }
+  
+  padding: {
+	top: 30px;
+	bottom: 15px;
+  }
+  
+  background: {
+	color: #222222;
+  }
+  
+  h3 {
+	color: $alt-color;
+  }
+  
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,mBAAmB",
+"sources": ["../scss/main.animation.scss"],
+"names": [],
+"file": "main.animation.css"
+}

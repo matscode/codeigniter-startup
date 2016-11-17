@@ -1,0 +1,224 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url("../UyBMtLsHKBKXelqf4x7VRQ.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url("../1YwB1sO8YE1Lyjf12WNiUA.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+.alt-text-color {
+  color: #3466bb; }
+
+.site-bg-color {
+  background-color: #3466bb; }
+
+.alt-text-color {
+  color: #1f7e9a; }
+
+.alt-bg-color {
+  background-color: #1f7e9a; }
+
+/* Spacing classes in partials */
+.margin-5 {
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px; }
+
+.margin-10 {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px; }
+
+.margin-20 {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px; }
+
+.margin-vertical-5 {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.margin-vertical-10 {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.margin-vertical-20 {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.margin-horizontal-5 {
+  margin-right: 5px;
+  margin-left: 5px; }
+
+.margin-horizontal-10 {
+  margin-right: 10px;
+  margin-left: 10px; }
+
+.margin-horizontal-20 {
+  margin-right: 20px;
+  margin-left: 20px; }
+
+.margin-top-5 {
+  margin-top: 5px; }
+
+.margin-top-10 {
+  margin-top: 10px; }
+
+.margin-top-20 {
+  margin-top: 20px; }
+
+.margin-right-5 {
+  margin-right: 5px; }
+
+.margin-right-10 {
+  margin-right: 10px; }
+
+.margin-right-20 {
+  margin-right: 20px; }
+
+.margin-bottom-5 {
+  margin-bottom: 5px; }
+
+.margin-bottom-10 {
+  margin-bottom: 10px; }
+
+.margin-bottom-20 {
+  margin-bottom: 20px; }
+
+.margin-left-5 {
+  margin-left: 5px; }
+
+.margin-left-10 {
+  margin-left: 10px; }
+
+.margin-left-20 {
+  margin-left: 20px; }
+
+.padding-5 {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px; }
+
+.padding-10 {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px; }
+
+.padding-20 {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px; }
+
+.padding-vertical-5 {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.padding-vertical-10 {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.padding-vertical-20 {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.padding-horizontal-5 {
+  padding-right: 5px;
+  padding-left: 5px; }
+
+.padding-horizontal-10 {
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.padding-horizontal-20 {
+  padding-right: 20px;
+  padding-left: 20px; }
+
+.padding-top-5 {
+  padding-top: 5px; }
+
+.padding-top-10 {
+  padding-top: 10px; }
+
+.padding-top-20 {
+  padding-top: 20px; }
+
+.padding-right-5 {
+  padding-right: 5px; }
+
+.padding-right-10 {
+  padding-right: 10px; }
+
+.padding-right-20 {
+  padding-right: 20px; }
+
+.padding-bottom-5 {
+  padding-bottom: 5px; }
+
+.padding-bottom-10 {
+  padding-bottom: 10px; }
+
+.padding-bottom-20 {
+  padding-bottom: 20px; }
+
+.padding-left-5 {
+  padding-left: 5px; }
+
+.padding-left-10 {
+  padding-left: 10px; }
+
+.padding-left-20 {
+  padding-left: 20px; }
+
+body {
+  background-color: #efefef;
+  font-family: 'Lato', sans-serif; }
+
+.card.home-test {
+  max-width: 40rem;
+  margin-top: 2rem;
+  margin-bottom: 1.8rem; }
+
+a {
+  color: #1f7e9a; }
+
+div.hr {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-bottom-color: #CCCCCC;
+  border-bottom-style: solid;
+  border-bottom-width: 1px; }
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.navbar {
+  background-color: #ffffff; }
+  .navbar .navbar-brand {
+    font-weight: bold; }
+
+.text-white {
+  color: white; }
+
+footer {
+  margin-top: 10px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #222222; }
+  footer h3 {
+    color: #1f7e9a; }
+
+/*# sourceMappingURL=main.css.map */

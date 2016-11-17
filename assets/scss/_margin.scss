@@ -1,0 +1,86 @@
+//Requires Mixins be Imported first
+@import "mixins";
+
+.margin-5 {
+  @include margin(5px, 5px , 5px, 5px);
+}
+
+.margin-10 {
+  @include margin(10px, 10px , 10px, 10px);
+}
+
+.margin-20 {
+  @include margin(20px, 20px , 20px, 20px);
+}
+
+.margin-vertical-5 {
+  @include margin(5px, null, 5px, null);
+}
+
+.margin-vertical-10 {
+  @include margin(10px, null, 10px, null);
+}
+
+.margin-vertical-20 {
+  @include margin(20px, null, 20px, null);
+}
+
+.margin-horizontal-5 {
+  @include margin(null, 5px, null, 5px);
+}
+
+.margin-horizontal-10 {
+  @include margin(null, 10px, null, 10px);
+}
+
+.margin-horizontal-20 {
+  @include margin(null, 20px, null, 20px);
+}
+
+.margin-top-5 {
+  @include margin(5px, null, null, null);
+}
+
+.margin-top-10 {
+  @include margin(10px, null, null, null);
+}
+
+.margin-top-20 {
+  @include margin(20px, null, null, null);
+}
+
+.margin-right-5 {
+  @include margin(null, 5px, null, null);
+}
+
+.margin-right-10 {
+  @include margin(null, 10px, null, null);
+}
+
+.margin-right-20 {
+  @include margin(null, 20px, null, null);
+}
+
+.margin-bottom-5 {
+  @include margin(null, null, 5px, null);
+}
+
+.margin-bottom-10 {
+  @include margin(null, null, 10px, null);
+}
+
+.margin-bottom-20 {
+  @include margin(null, null, 20px, null);
+}
+
+.margin-left-5 {
+  @include margin(null, null, null, 5px);
+}
+
+.margin-left-10 {
+  @include margin(null, null, null, 10px);
+}
+
+.margin-left-20 {
+  @include margin(null, null, null, 20px);
+}

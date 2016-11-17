@@ -1,0 +1,22 @@
+$site-color: #3466bb;
+$alt-color: #1f7e9a;
+
+.alt-text-color {
+  color: $site-color;
+}
+
+.site-bg-color {
+  background: {
+	color: $site-color;
+  }
+}
+
+.alt-text-color {
+  color: $alt-color;
+}
+
+.alt-bg-color {
+  background: {
+	color: $alt-color;
+  }
+}
