@@ -7,7 +7,7 @@ angular
 	function ($scope) {
 		$scope.developer = {
 			name: 'Michael Akanji',
-			age: 25,
+			age: 16,
 			location: 'Nigeria'
 		}
 	}]);

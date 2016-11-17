@@ -23,7 +23,7 @@
 	| a PHP script and you can easily do that on your own.
 	|
 	*/
-	$config['base_url'] = '//cis.vcom'; // Sample: http://localhost/cib
+	$config['base_url'] = '//cis.vcom'; // Sample: http://localhost/cis
 	
 	/*
 	|--------------------------------------------------------------------------
