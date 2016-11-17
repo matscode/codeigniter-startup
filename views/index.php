@@ -37,7 +37,10 @@
 					</div>
 				</div>
 				<div class="form-group">
-					<button class="btn btn-outline-primary">Sign in</button>
+					<button class="btn btn-outline-primary"
+							type="submit">
+						<i class="fa fa-sign-in fa-fw"></i> Sign in
+					</button>
 				</div>
 			</form>
 
@@ -53,3 +56,4 @@
 	</div>
 
 </main>
+git st
